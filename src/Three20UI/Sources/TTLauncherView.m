@@ -140,7 +140,14 @@ static const NSInteger kDefaultColumnCount = 3;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (CGFloat)rowHeight {
-  return round(_scrollView.height / 3);
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    if (screenBounds.size.height > 480) {
+        // code for 4-inch screen
+        return round(_scrollView.height / 4);
+
+    } else {
+        return round(_scrollView.height / 3);
+    }
 }
 
 

@@ -28,6 +28,7 @@
 @property (nonatomic, readonly) UIFont*   font;
 @property (nonatomic, readonly) UIColor*  backgroundColor;
 @property (nonatomic, readonly) UIColor*  navigationBarTintColor;
+@property (nonatomic, readonly) UIColor*  launcherBackgroundColor;
 @property (nonatomic, readonly) UIColor*  toolbarTintColor;
 @property (nonatomic, readonly) UIColor*  searchBarTintColor;
 

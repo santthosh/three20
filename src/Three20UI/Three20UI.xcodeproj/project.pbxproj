@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D94066166B19A10041C275 /* TTLauncherViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D94065166B19A10041C275 /* TTLauncherViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D94068166B19AA0041C275 /* TTLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D94067166B19AA0041C275 /* TTLauncherViewController.m */; };
 		666E18E912945430001C1D97 /* TTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666E18E712945430001C1D97 /* TTSplitViewController.m */; };
 		666E18F51294543F001C1D97 /* TTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 666E18F41294543F001C1D97 /* TTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66ADC8C91290AC0200855386 /* TTExtensionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ADC8C61290AC0200855386 /* TTExtensionsController.m */; };
@@ -440,6 +442,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53D94065166B19A10041C275 /* TTLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTLauncherViewController.h; path = Headers/TTLauncherViewController.h; sourceTree = "<group>"; };
+		53D94067166B19AA0041C275 /* TTLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTLauncherViewController.m; path = Sources/TTLauncherViewController.m; sourceTree = "<group>"; };
 		666E18E712945430001C1D97 /* TTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTSplitViewController.m; path = Sources/TTSplitViewController.m; sourceTree = "<group>"; };
 		666E18F41294543F001C1D97 /* TTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTSplitViewController.h; path = Headers/TTSplitViewController.h; sourceTree = "<group>"; };
 		66ADC8C61290AC0200855386 /* TTExtensionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionsController.m; path = Sources/TTExtensionsController.m; sourceTree = "<group>"; };
@@ -852,6 +856,8 @@
 		6E6457A01184D78000F08CB1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				53D94065166B19A10041C275 /* TTLauncherViewController.h */,
+				53D94067166B19AA0041C275 /* TTLauncherViewController.m */,
 				6E6455501184D4C500F08CB1 /* TTViewController.h */,
 				6E6456791184D4DA00F08CB1 /* TTViewController.m */,
 				666E18F41294543F001C1D97 /* TTSplitViewController.h */,
@@ -1764,6 +1770,7 @@
 				6E64556F1184D4C500F08CB1 /* TTImageViewInternal.h in Headers */,
 				6E6455701184D4C500F08CB1 /* TTLabel.h in Headers */,
 				6E6455711184D4C500F08CB1 /* TTLauncherButton.h in Headers */,
+				53D94066166B19A10041C275 /* TTLauncherViewController.h in Headers */,
 				6E6455721184D4C500F08CB1 /* TTLauncherItem.h in Headers */,
 				6E6455731184D4C500F08CB1 /* TTLauncherScrollView.h in Headers */,
 				6E6455741184D4C500F08CB1 /* TTLauncherView.h in Headers */,
@@ -2256,6 +2263,7 @@
 				6DD20D37141D0C2800916A4A /* TTTableSettingsItem.m in Sources */,
 				6DD20D39141D0C3A00916A4A /* TTTableSettingsItemCell.m in Sources */,
 				6D31FEDD1431268C006C6B7F /* TTTableSection.m in Sources */,
+				53D94068166B19AA0041C275 /* TTLauncherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

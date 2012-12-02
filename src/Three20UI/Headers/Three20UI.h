@@ -51,6 +51,7 @@
 #import "Three20UI/TTLauncherViewDelegate.h"
 #import "Three20UI/TTLauncherItem.h"
 #import "Three20UI/TTLauncherPersistenceMode.h"
+#import "Three20UI/TTLauncherViewController.h"
 
 #import "Three20UI/TTLabel.h"
 #import "Three20UI/TTStyledTextLabel.h"
