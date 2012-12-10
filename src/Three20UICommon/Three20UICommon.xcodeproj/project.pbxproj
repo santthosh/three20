@@ -19,7 +19,7 @@
 		6E3C37D6118C97040079637E /* UIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3C37D5118C97040079637E /* UIViewControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E6454741184D2CD00F08CB1 /* Three20UICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6454731184D2CD00F08CB1 /* Three20UICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E6459381187645D00F08CB1 /* UICommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6459371187645D00F08CB1 /* UICommonTests.m */; };
-		6E7B1039119235BF001359FE /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B1037119235BF001359FE /* TTBaseViewController.m */; };
+		6E7B1039119235BF001359FE /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B1037119235BF001359FE /* TTBaseViewController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		6E7B103B119235CF001359FE /* TTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7B103A119235CF001359FE /* TTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E7B116911924440001359FE /* UIViewControllerGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7B116811924440001359FE /* UIViewControllerGarbageCollection.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6E7F9476118E1DC600443B46 /* UIViewControllerAdditionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F9475118E1DC600443B46 /* UIViewControllerAdditionTests.m */; };
